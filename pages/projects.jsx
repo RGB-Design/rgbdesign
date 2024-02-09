@@ -4,11 +4,6 @@ import {
 
 import TextBox from '@/components/TextBox';
 
-import ThesisImg from '@/public/images/projects/thesis.png';
-import ResidentialImg from '@/public/images/projects/residential.png';
-import LeisureImg from '@/public/images/projects/leisure_space.png';
-
-
 import styles from '@/styles/Projects.module.scss';
 
 export default function Projects() {
@@ -43,7 +38,7 @@ export default function Projects() {
             <div className={styles.heading}>
                 <h1><span className={styles.light}>ARCHITECTURE</span> PROJECTS</h1>
             </div>
-            <Grid container spacing={12}>
+            {/* <Grid container spacing={12}>
                 <Grid item xs={12} md={6} lg={4}>
                     <TextBox 
                         title="CENTRE"
@@ -71,7 +66,7 @@ export default function Projects() {
                         link={'/documents/projects.pdf'}
                     />
                 </Grid>
-            </Grid>
+            </Grid> */}
 
             
 
