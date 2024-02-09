@@ -6,12 +6,9 @@ import LinkedinLogo from '@/public/images/linkedin-logo.svg';
 import styles from '@/styles/ProjectBox.module.scss';
 
 export default function ProjectBox(props) {
-
-    let public_url = process.env.PUBLIC_URL
-    if(public_url == undefined) {
-        public_url = ''
-    } else {
-        public_url += '/'
+    let public_url = ''
+    if(process.env.NODE_ENV == 'production') {
+        public_url = 'rgbdesign/'
     }
 
     return (
