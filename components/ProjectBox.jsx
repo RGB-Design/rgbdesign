@@ -8,7 +8,7 @@ import styles from '@/styles/ProjectBox.module.scss';
 export default function ProjectBox(props) {
     let public_url = ''
     if(process.env.NODE_ENV == 'production') {
-        public_url = 'rgbdesign/'
+        public_url = 'rgbdesign'
     }
 
     return (
