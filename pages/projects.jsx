@@ -8,11 +8,6 @@ import ThesisImg from '@/public/images/projects/thesis.png';
 import ResidentialImg from '@/public/images/projects/residential.png';
 import LeisureImg from '@/public/images/projects/leisure_space.png';
 
-import VTImg from '@/public/images/profile/vt.jpg';
-import SPImg from '@/public/images/profile/sp.jpg';
-import AUImg from '@/public/images/profile/au.jpg';
-import SCImg from '@/public/images/profile/sc.jpg';
-
 
 import styles from '@/styles/Projects.module.scss';
 

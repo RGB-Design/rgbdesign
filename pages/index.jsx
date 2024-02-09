@@ -1,5 +1,7 @@
+import { useEffect, useState } from 'react';
 import {
-    Grid
+    Grid,
+    Box
 } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -8,8 +10,34 @@ import TextBox from '@/components/TextBox';
 import SDFAnimation from '@/components/SDFAnimation';
 
 import styles from '@/styles/Home.module.scss';
+import ProjectBox from '@/components/ProjectBox';
+
+import project_json from '../public/projects.json';
 
 export default function Home() {
+
+    const [projects, setProjects] = useState(undefined);
+
+    useEffect(() => {
+        setProjects(project_json['projects_list'])
+    }, [])
+
+    function renderProjectGrid(projects) {
+        if(projects) {
+            let res = []
+
+            projects.forEach((p, idx) => {
+                res.push(
+                    <Grid key={idx} item xs={12} md={6} lg={4} className={styles.info_container}>
+                        <ProjectBox title={p.title} img_src={"/images/" + p.img_src}/>
+                    </Grid>
+                )
+            })
+
+            return res
+        }
+    }
+
     return (
         <>
         
@@ -40,6 +68,14 @@ export default function Home() {
 
                 <section className={styles.work_section}>
                     <h1 className={styles.title}>WORKS</h1>
+
+                    <Grid 
+                        container 
+                        spacing={5}
+                    >
+                        {renderProjectGrid(projects)}
+                    </Grid>
+                    
 
                 </section>
 
