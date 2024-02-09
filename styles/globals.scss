@@ -1,0 +1,175 @@
+@use "variables";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+	font-family: Quicksand;
+	src: url("./fonts/Quicksand-Bold.ttf") format("truetype");
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: Quicksand;
+	src: url("./fonts/Quicksand-Medium.ttf") format("truetype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Quicksand;
+	src: url("./fonts/Quicksand-Regular.ttf") format("truetype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Quicksand;
+	src: url("./fonts/Quicksand-Light.ttf") format("truetype");
+	font-weight: 100;
+}
+
+
+
+
+@font-face {
+	font-family: Teko;
+	src: url("./fonts/teko/Teko-Bold.ttf") format("truetype");
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: Teko;
+	src: url("./fonts/teko/Teko-Medium.ttf") format("truetype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Teko;
+	src: url("./fonts/teko/Teko-Regular.ttf") format("truetype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Teko;
+	src: url("./fonts/teko/Teko-Light.ttf") format("truetype");
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: Raleway;
+	src: url("./fonts/raleway/Raleway-Light.ttf") format("truetype");
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("./fonts/satoshi/Satoshi-Light.otf") format("opentype");
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("./fonts/satoshi/Satoshi-Light.otf") format("opentype");
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("./fonts/satoshi/Satoshi-LightItalic.otf") format("opentype");
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("./fonts/satoshi/Satoshi-Regular.otf") format("opentype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("./fonts/satoshi/Satoshi-Italic.otf") format("opentype");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("./fonts/satoshi/Satoshi-Italic.otf") format("opentype");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("./fonts/satoshi/Satoshi-Medium.otf") format("opentype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("./fonts/satoshi/Satoshi-MediumItalic.otf") format("opentype");
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("./fonts/satoshi/Satoshi-Bold.otf") format("opentype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("./fonts/satoshi/Satoshi-BoldItalic.otf") format("opentype");
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("./fonts/satoshi/Satoshi-Black.otf") format("opentype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("./fonts/satoshi/Satoshi-BlackItalic.otf") format("opentype");
+	font-weight: 700;
+	font-style: italic;
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html, body {
+  font-family: 'Satoshi';
+  background-color: variables.$primary_background;
+  color: variables.$text_default_color;
+  height: 100%;
+  width: 100%;
+}
+
+#__next {
+	height: 100%;
+  	width: 100%;
+}
+
+button {
+	padding: 7px 35px 5px 35px;
+	background-color: #111111;
+	color: #ffffff;
+	box-shadow: none;
+	font-family: 'Teko';
+	font-size: 1.4rem;
+	width: fit-content;
+	border: none;
+	margin: 20px 0;
+	cursor: pointer;
+}

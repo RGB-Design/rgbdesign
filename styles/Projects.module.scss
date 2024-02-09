@@ -1,0 +1,32 @@
+@use "variables";
+
+.projects_container {
+    margin-top: 130px;
+    padding-bottom: 100px;
+    .heading {
+        padding: 260px 0;
+        h1 {
+            font-size: 4rem;
+            span.light {
+                font-weight: 100;
+                font-size: 4.5rem;
+                display: block;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: variables.$sm) {
+    .projects_container {
+        .heading {
+            padding: 30px 0 220px 0;
+            h1 {
+                text-align: center;
+            }
+        }
+        .space {
+            height: 200px;
+        }
+    }
+}
