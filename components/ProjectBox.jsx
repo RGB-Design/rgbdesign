@@ -15,7 +15,12 @@ export default function ProjectBox(props) {
         <Link href={'projects'}>
             <div className={styles.project_box_section}>
                 <div className={styles.background}>
-                    <Image src={`${public_url}${props.img_src}`} width="100" height="180"/>
+                    <Image 
+                        src={`${public_url}${props.img_src}`} 
+                        className={styles.img}
+                        width={100}
+                        height={100}
+                    />
                 </div>
                 <div className={styles.overlay}>
                     <h2>{props.title}</h2>

@@ -29,7 +29,7 @@ export default function Home() {
             projects.forEach((p, idx) => {
                 res.push(
                     <Grid key={idx} item xs={12} md={6} lg={4} className={styles.info_container}>
-                        <ProjectBox title={p.title} img_src={"/images/" + p.img_src}/>
+                        <ProjectBox title={p.title} img_src={"/images/projects/" + p.img_src}/>
                     </Grid>
                 )
             })
@@ -56,22 +56,32 @@ export default function Home() {
                 <section className={styles.about_section}>
                     <Grid container spacing={8}>
                         <Grid item xs={12} md={6} lg={6} className={styles.info_container}>
-                            <h3>ABOUT RGB DESIGN</h3>
-                            <h2>A FORWARD-THINKING CRAFTSMAN, TRAILBLAZING INTELLECT, AND BUILDER OF THE FUTURE, HARMONIZING DESIGN, NATURE, AND ALGORITHMS.</h2>
+                            <h3>RGB DESIGN</h3>
+                            <h2>WHERE DESIGN, TECH, AND NATURE CONVERGE. INNOVATING SUSTAINABLE, STRIKING FUTURES.</h2>
                         </Grid>
                         <Grid item xs={12} md={6} lg={6} className={styles.info_container + ' ' + styles.para}>
-                            <p>Our startup is a fusion of technology, nature, and design, committed to pioneering innovative solutions across industries. We blend the complexity of nature, the precision of algorithms, and the creativity of design to address global challenges sustainably and efficiently. Our approach is to harness these elements to innovate in fields such as architecture and healthcare, aiming to enhance sustainability, functionality, and beauty in our surroundings.</p>
+                            <p>At RGB Design, we merge Design and Technology with 
+                                <br/>Natural Intelligence and Computational innovation to
+                                <br/>creatively tackle design challenges.
+                                </p>
+                                <p>
+                                    <span className="highlight_green"><b>Our mission:</b> to blend form and function, delivering sustainable, technologically forward, and visually striking design solutions.</span> We're driven to inspire change and progress, crafting designs that impact both society
+and the environment positively.
+</p><p>Welcome to the future of design!</p>
                             {/* <p>We strive to lead by inspiration, pushing the boundaries of what's possible through cutting-edge research and the application of artificial intelligence. Our work includes developing biomimetic designs and algorithms for smarter urban planning. By fostering a community of forward-thinkers and innovators, we envision a future where technology and nature coalesce, paving the way for a world that values creativity, efficiency, and environmental harmony.</p> */}
                         </Grid>
                     </Grid>
                 </section>
 
                 <section className={styles.work_section}>
-                    <h1 className={styles.title}>WORKS</h1>
+                    <div className={styles.title_container}>
+                        <h1 className={styles.title}>WORKS</h1>
+                    </div>
 
                     <Grid 
                         container 
-                        spacing={5}
+                        spacing={0}
+                        rowSpacing={0}
                     >
                         {renderProjectGrid(projects)}
                     </Grid>

@@ -9,7 +9,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 
 import LinkedinLogo from '../public/images/linkedin-logo.svg';
-import RGBLogo from '../public/images/logo.svg';
+import RGBLogo from '../public/images/logo_.svg';
 
 import styles from '@/styles/Header.module.scss';
 
@@ -31,7 +31,7 @@ export default function Header() {
         <nav className={styles.header_container}>
             <AppBar 
                 sx={{
-                    backgroundColor: '#1111113f'
+                    backgroundColor: '#000000af'
                 }}
                 position="static"
             >

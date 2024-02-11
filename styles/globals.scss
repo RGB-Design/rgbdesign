@@ -173,3 +173,19 @@ button {
 	margin: 20px 0;
 	cursor: pointer;
 }
+
+.highlight_red {
+	background-color: variables.$primary_red_bg;
+	color: variables.$black;
+}
+
+.highlight_green {
+	background-color: variables.$primary_green_bg;
+	color: variables.$primary_green_text;
+	padding: 0 5px;
+}
+
+.highlight_blue {
+	background-color: variables.$primary_blue_bg;
+	color: variables.$white;
+}

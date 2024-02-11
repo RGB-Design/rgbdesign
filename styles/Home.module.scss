@@ -47,7 +47,7 @@
         .info_container {
             p {
                 font-size: 1.3rem;
-                font-weight: 500;
+                font-weight: 300;
                 text-align: right;
                 line-height: 2rem;
             }
@@ -56,9 +56,9 @@
                 text-align: left;
                 font-weight: 400;
                 letter-spacing: 0.3rem;
-                background-color: #fff;
+                background-color: variables.$primary_green_bg;
                 display: inline-block;
-                color: #000;
+                color: variables.$white;
                 padding: 0 3px;
             }
             h2 {
@@ -68,19 +68,29 @@
             }
         }
         .para {
-            display: flex;
-            align-items: flex-end;
+            padding-top: -190px;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: flex-end;
         }
     }
     .work_section {
-        padding: 80px 60px;
-        .title {
-            font-size: 4rem;
-            text-align: center;
-            background-color: #fff;
-            color: #000;
-            display: inline-block;
+        padding: 80px 0px;
+        display: flex;
+        flex-direction: column;
+        .title_container {
+            align-self: center;
+            padding: 30px 0;
+            .title {
+                padding: 0 20px;
+                font-size: 8rem;
+                text-align: center;
+                background-color: variables.$primary_green_bg;
+                color: variables.$white;
+                display: inline-block;
+            }
         }
+        
         .info_container {
             height: 100%;
         }

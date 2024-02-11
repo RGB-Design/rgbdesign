@@ -6,8 +6,8 @@ export default function Contact() {
     return (
         <section className={styles.contact_container}>
             <h2>Contact</h2>
-            <Link href="mailto:hi@mbakshi.com">
-                <h3>reachout@mbakshi.com</h3>
+            <Link href="mailto:reachout@rgbdesign.in">
+                <h3>reachout@rgbdesign.in</h3>
             </Link>
         </section>
     )
