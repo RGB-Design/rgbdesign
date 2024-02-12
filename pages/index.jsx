@@ -28,7 +28,7 @@ export default function Home() {
 
             projects.forEach((p, idx) => {
                 res.push(
-                    <Grid key={idx} item xs={12} md={6} lg={4} className={styles.info_container}>
+                    <Grid key={idx} item xs={12} md={6} lg={6} className={styles.info_container}>
                         <ProjectBox title={p.title} img_src={"/images/projects/" + p.img_src}/>
                     </Grid>
                 )
@@ -49,7 +49,7 @@ export default function Home() {
                     <div className={styles.hero_overlay}>
                         <h1 className={styles.big_title}>INNOVATION.</h1>
                         <h1 className={styles.big_title}>RESEARCH.</h1>
-                        <h1 className={styles.big_title}>ROBOTICS.</h1>
+                        <h1 className={styles.big_title}>DESIGN.</h1>
                     </div>
                 </section>
 
@@ -75,12 +75,12 @@ and the environment positively.
 
                 <section className={styles.work_section}>
                     <div className={styles.title_container}>
-                        <h1 className={styles.title}>WORKS</h1>
+                        <h1 className={styles.title}>EXPLORE OUR WORK</h1>
                     </div>
 
                     <Grid 
                         container 
-                        spacing={0}
+                        spacing={2}
                         rowSpacing={0}
                     >
                         {renderProjectGrid(projects)}

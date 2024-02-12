@@ -18,11 +18,12 @@ export default function Header() {
     function renderLogo(className) {
         return (
             <Link className={className} href="/">
-                {/* <Image
+                <Image
                     priority
-                    src={''}
-                    alt="Soket Labs Logo"
-                /> */}
+                    className={styles.logo} 
+                    src={RGBLogo} 
+                    alt="RGB Design Logo"
+                />
             </Link>
         )
     }
@@ -36,9 +37,26 @@ export default function Header() {
                 position="static"
             >
                 <Toolbar>
-                    <Image className={styles.logo} src={RGBLogo} alt="RGB Design Logo" />
+                    {renderLogo()}
+                    {/* <Image className={styles.logo} src={RGBLogo} alt="RGB Design Logo" /> */}
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        
+                        {/* <ul>
+                            <Link href="/">
+                                <li>HOME</li>
+                            </Link>
+                            <Link href="/documents/cv.pdf">
+                                <li>ABOUT</li>
+                            </Link>
+                            <Link href="/documents/portfolio.pdf">
+                                <li>PORTFOLIO</li>
+                            </Link>
+                            <Link href="/projects">
+                                <li>PROJECTS</li>
+                            </Link>
+                            <Link href="/contact">
+                                <li>CONTACT</li>
+                            </Link>
+                        </ul> */}
                     </Typography>
                     <IconButton
                         size="large"

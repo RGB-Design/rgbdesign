@@ -75,7 +75,7 @@
         }
     }
     .work_section {
-        padding: 80px 0px;
+        padding: 80px 140px;
         display: flex;
         flex-direction: column;
         .title_container {
@@ -83,9 +83,10 @@
             padding: 30px 0;
             .title {
                 padding: 0 20px;
-                font-size: 8rem;
+                font-size: 2.4rem;
                 text-align: center;
-                background-color: variables.$primary_green_bg;
+                font-weight: 600;
+                // background-color: variables.$primary_green_bg;
                 color: variables.$white;
                 display: inline-block;
             }

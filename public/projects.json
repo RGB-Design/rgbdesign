@@ -1,20 +1,115 @@
 {
+    "computational_design": {
+        "title": "Computational Design",
+        "projects": [
+            {
+                "title": "Orb[i]s",
+                "cover": "4.jpg",
+                "images": [
+                    "1.jpg",
+                    "2.jpg",
+                    "3.jpg",
+                    "4.jpg",
+                    "5.jpg",
+                    "6.jpg",
+                    "7.jpg"
+                ]
+            }, {
+                "title": "RhinoVault",
+                "cover": "5.jpg",
+                "images": [
+                    "1.jpg",
+                    "2.jpg",
+                    "3.jpg",
+                    "4.jpg",
+                    "5.jpg",
+                    "6.jpg"
+                ]
+            }
+        ]
+    },
+    "material_experiments": {
+        "title": "Material Experiments",
+        "projects": [
+            {
+                "title": "Church Street - Paper Tube Seater",
+                "cover": "1.jpg",
+                "images": [
+                    "1.jpg",
+                    "2.jpg",
+                    "3.jpg",
+                    "4.jpg",
+                    "5.jpg",
+                    "6.jpg"
+                ]
+            }, {
+                "title": "TETR.IS",
+                "cover": "6.jpg",
+                "images": [
+                    "1.jpg",
+                    "2.jpg",
+                    "3.jpg",
+                    "4.jpg",
+                    "5.jpg",
+                    "6.jpg"
+                ]
+            }
+        ]
+    },
+    "furniture_design": {
+        "title": "Interiors & Furniture Design",
+        "projects": [
+            {
+                "title": "HSEA Conference Room",
+                "cover": "1.jpg",
+                "images": [
+                    "1.jpg",
+                    "2.jpg",
+                    "3.jpg"
+                ]
+            }, {
+                "title": "HSEA Dining Hall",
+                "cover": "1.jpg",
+                "images": [
+                    "1.jpg"
+                ]
+            }, {
+                "title": "Pipe Shoe Stands",
+                "cover": "1.jpg"
+            }
+        ]
+    },
+    "competitions": {
+        "title": "Competitions",
+        "projects": [
+            {
+                "title": "Notions of India",
+                "cover": "1.jpg",
+                "images": [
+                    "1.jpg",
+                    "2.jpg",
+                    "3.jpg",
+                    "4.jpg"
+                ]
+            }
+        ]
+    },
     "projects_list": [
         {
             "title": "Organic design, inspired by nature",
-            "img_src": "project.png"
+            "img_src": "Computational Design/Orb[i]s/4.jpg"
         },
         {
             "title": "Organic design, inspired by nature",
-            "img_src": "project.png"
+            "img_src": "Material Experiments/Church Street - Paper Tube Seater/1.jpg"
         },
         {
             "title": "Organic design, inspired by nature",
-            "img_src": "project.png"
+            "img_src": "Interiors & Furniture Design/HSEA Conference Room/1.jpg"
         },
         {
             "title": "Organic design, inspired by nature",
-            "img_src": "project.png"
+            "img_src": "Competitions/Notions of India/1.jpg"
         }
     ]
 }

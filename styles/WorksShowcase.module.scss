@@ -1,0 +1,35 @@
+@use "variables";
+
+.works_showcase {
+    margin-bottom: 150px;
+    .category_title {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 1.5rem;
+        margin-bottom: 50px;
+    }
+    .img_container {
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        // position: relative;
+        .showcase_img {
+            width: 100%;
+            height: auto;
+            // position: absolute;
+        }
+        .overlay {
+            // position: absolute;
+            bottom: 20px;
+            // text-transform: uppercase;
+            // letter-spacing: 2rem;
+            background-color: variables.$black;
+            color: variables.$white;
+            // padding: 0 20px;
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+    }
+    
+}

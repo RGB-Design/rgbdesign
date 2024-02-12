@@ -12,7 +12,7 @@ export default function ProjectBox(props) {
     }
 
     return (
-        <Link href={'projects'}>
+        <Link href={'works'}>
             <div className={styles.project_box_section}>
                 <div className={styles.background}>
                     <Image 
@@ -23,7 +23,7 @@ export default function ProjectBox(props) {
                     />
                 </div>
                 <div className={styles.overlay}>
-                    <h2>{props.title}</h2>
+                    {/* <h2>{props.title}</h2> */}
                     {/* <p>hi hjhfg</p> */}
                 </div>
                 {/* <Link href={props.linkedinProfileLink} target='_blank'>
