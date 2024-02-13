@@ -8,9 +8,9 @@ import styles from '@/styles/WorksShowcase.module.scss';
 
 export default function WorksShowcase(props) {
     let public_url = ''
-    if(process.env.NODE_ENV == 'production') {
-        public_url = '/rgbdesign'
-    }
+    // if(process.env.NODE_ENV == 'production') {
+    //     public_url = '/rgbdesign'
+    // }
 
     function renderProjectGrid() {
         let res = []

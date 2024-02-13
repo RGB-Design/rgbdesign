@@ -5,9 +5,9 @@ import styles from '@/styles/WorksBox.module.scss';
 
 export default function WorksBox(props) {
     let public_url = ''
-    if(process.env.NODE_ENV == 'production') {
-        public_url = '/rgbdesign'
-    }
+    // if(process.env.NODE_ENV == 'production') {
+    //     public_url = '/rgbdesign'
+    // }
 
     let colour_style = styles.white
     let bg_style = ''
