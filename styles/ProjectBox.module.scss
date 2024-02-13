@@ -15,7 +15,7 @@
             width: 100%;
             height: max-content;
             // border-radius: 8px;
-            filter: grayscale(100%);
+            filter: grayscale(0%);
             transition: all 0.5s ease;
         }
         
@@ -41,7 +41,7 @@
 }
 .project_box_section:hover {
     .img {
-        filter: grayscale(0%);
+        filter: grayscale(100%);
     }
     h2 {
         color: variables.$primary_green_text;
