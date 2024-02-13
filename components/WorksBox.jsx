@@ -31,6 +31,7 @@ export default function WorksBox(props) {
                         src={props.img_src} 
                         width={100}
                         height={100}
+                        alt="work image"
                     />
                     <h2 className={colour_style}>{props.title}</h2>
                 </div>

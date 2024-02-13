@@ -20,6 +20,7 @@ export default function ProjectBox(props) {
                         className={styles.img}
                         width={100}
                         height={100}
+                        alt="project cover"
                     />
                 </div>
                 <div className={styles.overlay}>

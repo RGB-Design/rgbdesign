@@ -65,9 +65,9 @@ export default function Home() {
                                 <br/>creatively tackle design challenges.
                                 </p>
                                 <p>
-                                    <span className="highlight_green"><b>Our mission:</b> to blend form and function, delivering sustainable, technologically forward, and visually striking design solutions.</span> We're driven to inspire change and progress, crafting designs that impact both society
-and the environment positively.
-</p><p>Welcome to the future of design!</p>
+                                    <span className="highlight_green"><b>Our mission:</b> to blend form and function, delivering sustainable, technologically forward, and visually striking design solutions.</span> We're driven to inspire change and progress, crafting designs that impact both society and the environment positively.
+                                </p>
+                                <p>Welcome to the future of design!</p>
                             {/* <p>We strive to lead by inspiration, pushing the boundaries of what's possible through cutting-edge research and the application of artificial intelligence. Our work includes developing biomimetic designs and algorithms for smarter urban planning. By fostering a community of forward-thinkers and innovators, we envision a future where technology and nature coalesce, paving the way for a world that values creativity, efficiency, and environmental harmony.</p> */}
                         </Grid>
                     </Grid>
