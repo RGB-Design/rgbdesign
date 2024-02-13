@@ -31,7 +31,11 @@ export default function Home() {
             projects.forEach((p, idx) => {
                 res.push(
                     <Grid key={idx} item xs={12} md={6} lg={6} className={styles.info_container}>
-                        <ProjectBox title={p.title} img_src={"/images/projects/" + p.img_src}/>
+                        <ProjectBox 
+                            title={p.title} 
+                            link={p.theme}
+                            img_src={"/images/projects/" + p.img_src}
+                        />
                     </Grid>
                 )
             })

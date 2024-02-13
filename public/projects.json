@@ -124,19 +124,23 @@
     "projects_list": [
         {
             "title": "Organic design, inspired by nature",
-            "img_src": "Computational Design/Orbis/4.jpg"
+            "img_src": "Computational Design/Orbis/4.jpg",
+            "theme": "computational_design"
         },
         {
             "title": "Organic design, inspired by nature",
-            "img_src": "Material Experiments/Church Street - Paper Tube Seater/1.jpg"
+            "img_src": "Material Experiments/Church Street - Paper Tube Seater/1.jpg",
+            "theme": "material_experiments"
         },
         {
             "title": "Organic design, inspired by nature",
-            "img_src": "Interiors & Furniture Design/HSEA Conference Room/1.jpg"
+            "img_src": "Interiors & Furniture Design/HSEA Conference Room/1.jpg",
+            "theme": "furniture_design"
         },
         {
             "title": "Organic design, inspired by nature",
-            "img_src": "Competitions/Notions of India/1.jpg"
+            "img_src": "Competitions/Notions of India/1.jpg",
+            "theme": "competitions"
         }
     ]
 }

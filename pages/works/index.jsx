@@ -13,10 +13,10 @@ import styles from '@/styles/Works.module.scss';
 export default function Works() {
     return (
         <section className={styles.projects_container}>
-        <WorksShowcase data={projectsData['computational_design']}/>
-        <WorksShowcase data={projectsData['material_experiments']}/>
-        <WorksShowcase data={projectsData['furniture_design']}/>
-        <WorksShowcase data={projectsData['competitions']}/>
+        <WorksShowcase data={projectsData} theme={"computational_design"}/>
+        <WorksShowcase data={projectsData} theme={"material_experiments"}/>
+        <WorksShowcase data={projectsData} theme={"furniture_design"}/>
+        <WorksShowcase data={projectsData} theme={"competitions"}/>
 
             
         </section>

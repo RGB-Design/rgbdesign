@@ -12,7 +12,7 @@ export default function ProjectBox(props) {
     // }
 
     return (
-        <Link href={'works'}>
+        <Link href={'works#' + props.link}>
             <div className={styles.project_box_section}>
                 <div className={styles.background}>
                     <Image 
