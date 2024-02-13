@@ -14,7 +14,7 @@ import styles from '@/styles/About.module.scss';
 export default function About() {
     return (
         <section className={styles.works_container}>
-            <Grid container sx={{display: {xs: 'none', sm: 'none'}}}>
+            <Grid container sx={{display: {xs: 'none', sm: 'none', lg: 'flex'}}}>
                 <Grid item xs={12} md={4} lg={4}>
                     <WorksBox/>
                 </Grid>
@@ -48,7 +48,7 @@ export default function About() {
                     />
                 </Grid>
             </Grid>
-            <Grid container sx={{display: {xs: 'none', sm: 'none'}}}>
+            <Grid container sx={{display: {xs: 'none', sm: 'none', lg: 'flex'}}}>
                 <Grid item xs={12} md={4} lg={4}>
                     <WorksBox/>
                 </Grid>
