@@ -5,6 +5,8 @@ import {
 } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
+import IconButton from '@mui/material/IconButton';
+import EastIcon from '@mui/icons-material/East';
 
 import TextBox from '@/components/TextBox';
 import SDFAnimation from '@/components/SDFAnimation';
@@ -58,6 +60,17 @@ export default function Home() {
                         <Grid item xs={12} md={6} lg={6} className={styles.info_container}>
                             <h3>RGB DESIGN</h3>
                             <h2>WHERE DESIGN, TECH, AND NATURE CONVERGE. INNOVATING SUSTAINABLE, STRIKING FUTURES.</h2>
+                            <IconButton
+                                size="large"
+                                edge="start"
+                                color="inherit"
+                                aria-label="menu"
+                                sx={{ mr: 2, marginRight: 0 }}
+                            >
+                                <Link href="/about" style={{color: '#ffffff'}}>
+                                    <EastIcon />
+                                </Link>
+                            </IconButton>
                         </Grid>
                         <Grid item xs={12} md={6} lg={6} className={styles.info_container + ' ' + styles.para}>
                             <p>At RGB Design, we merge Design and Technology with 

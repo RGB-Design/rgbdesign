@@ -19,3 +19,19 @@
         }
     }
 }
+
+@media (max-width: variables.$sm) {
+    .works_container {
+        padding: 0 10px;
+        .about {
+            padding: 90px 0;
+            .about_text {
+                text-align: center;
+                font-size: 1.3rem;
+                font-weight: 100;
+                margin: 20px 0;
+                padding: 0 40px;
+            }
+        }
+    }
+}
