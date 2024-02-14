@@ -54,12 +54,19 @@ export default function WorksDetails(props) {
                     </Grid>
                 )
             })
+
+            let desc_dom = []
+            project.description.forEach((d, idx) => {
+                desc_dom.push(
+                    <p>{d}</p>
+                )
+            })
             return (
                 <>
                     <div className={styles.description_container}>
                         <h1>{project.title}</h1>
                         <h2>{project.subtitle}</h2>
-                        <p>{project.description}</p>
+                        {desc_dom}
                     </div>
                     <Grid container spacing={2}>
                         {img_grid}
