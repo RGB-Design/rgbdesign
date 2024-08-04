@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 import styles from '@/styles/Contact.module.scss';
 
@@ -9,6 +10,11 @@ export default function Contact() {
             <Link href="mailto:reachout@rgbdesign.in">
                 <h3>reachout@rgbdesign.in</h3>
             </Link>
+            <div className={styles.follow}>Follow us on</div> 
+            <Link href="https://www.instagram.com/rgb.designresearch">
+                <InstagramIcon/>
+            </Link>
+            
         </section>
     )
 }

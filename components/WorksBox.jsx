@@ -34,6 +34,7 @@ export default function WorksBox(props) {
                         alt="work image"
                     />
                     <h2 className={colour_style}>{props.title}</h2>
+                    <p>{props.description}</p>
                 </div>
             )
         } else {

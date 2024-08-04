@@ -14,7 +14,7 @@ import styles from '@/styles/About.module.scss';
 export default function About() {
     return (
         <section className={styles.works_container}>
-            <Grid container sx={{display: {xs: 'none', sm: 'none', lg: 'flex'}}}>
+            {/* <Grid container sx={{display: {xs: 'none', sm: 'none', lg: 'flex'}}}>
                 <Grid item xs={12} md={4} lg={4}>
                     <WorksBox/>
                 </Grid>
@@ -24,11 +24,12 @@ export default function About() {
                 <Grid item xs={12} md={4} lg={4}>
                     <WorksBox/>
                 </Grid>
-            </Grid>
+            </Grid> */}
             <Grid container spacing={3}>
                 <Grid item xs={12} md={4} lg={4}>
                     <WorksBox 
                         title={'Material Experiments'}
+                        description={"Embarking on a journey of material innovation at RGB Design! From pioneering research to hands-on experimentation, we're committed to pushing boundaries and harnessing the full potential of every material. Join us as we explore new frontiers in design and unleash the power of innovation, one molecule at a time."}
                         img_src={materialLogo}
                         style={'red'}
                     />
@@ -36,13 +37,15 @@ export default function About() {
                 <Grid item xs={12} md={4} lg={4}>
                     <WorksBox 
                         title={'Computational Design'}
+                        description={"Fueling design excellence with computational prowess and digital fabrication: Our workflow thrives on the use of cutting edge technology, leveraging computational design to optimize efficiency and drive innovation."}
                         img_src={computationLogo}
                         style={'green'}
                     />
                 </Grid>
                 <Grid item xs={12} md={4} lg={4}>
                     <WorksBox 
-                        title={'Interiors & Furniture Design'}
+                        title={'Multi Disciplinary Design'}
+                        description={"As multi-disciplinary designers and design enthusiasts, we thrive on exploring the endless possibilities within every realm of design. Whether it's crafting captivating spaces, sculpting furniture, dreaming up innovative products, or even shaping exquisite jewelry, we're all about pushing boundaries. Join us on this journey of creativity and exploration!"}
                         img_src={intelligenceLogo}
                         style={'blue'}
                     />
