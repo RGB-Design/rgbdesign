@@ -7,8 +7,8 @@ export default function Contact() {
     return (
         <section className={styles.contact_container}>
             <h2>Contact</h2>
-            <Link href="mailto:reachout@rgbdesign.in">
-                <h3>reachout@rgbdesign.in</h3>
+            <Link href="mailto:roshni@rgbdesign.in">
+                <h3>roshni@rgbdesign.in</h3>
             </Link>
             <div className={styles.follow}>Follow us on</div> 
             <Link href="https://www.instagram.com/rgb.designresearch">
